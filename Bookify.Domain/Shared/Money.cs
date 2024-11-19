@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Bookify.Domain.Apartments;
+﻿namespace Bookify.Domain.Shared;
 public record Money(decimal Amount, Currency Currency)
 {
     public static Money operator +(Money left, Money right)
@@ -27,8 +21,9 @@ public record Money(decimal Amount, Currency Currency)
         return new Money(left.Amount - right.Amount, left.Currency);
     }
 
-   public static Money Zero() => new Money(0, Currency.None);
-
+    public static Money Zero() => new Money(0, Currency.None);
+    public static Money Zero(Currency currency) => new Money(0, currency);
+    public bool IsZero() => this == Zero(Currency);
     public override string ToString()
     {
         return $"{Amount} {Currency}";
