@@ -24,4 +24,11 @@ public record DateRange
             End = end
         };
     }
+
+    public bool OverlapsWith(DateRange duration)
+    {
+        return 
+            Start <= duration.End &&
+            End >= duration.Start;
+    }
 }
