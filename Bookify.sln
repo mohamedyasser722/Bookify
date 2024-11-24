@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Application", "Book
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Infrastructure", "Bookify.Infrastructure\Bookify.Infrastructure.csproj", "{3FF2BDCA-DF41-4EE7-92BD-3CF10FA3DE3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Api", "Bookify.Api\Bookify.Api.csproj", "{371D1145-40B1-4691-A25B-076C425137DD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{43660E50-67F9-4EAF-8EA7-F671C89F2C2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,14 @@ Global
 		{3FF2BDCA-DF41-4EE7-92BD-3CF10FA3DE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FF2BDCA-DF41-4EE7-92BD-3CF10FA3DE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FF2BDCA-DF41-4EE7-92BD-3CF10FA3DE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371D1145-40B1-4691-A25B-076C425137DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371D1145-40B1-4691-A25B-076C425137DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371D1145-40B1-4691-A25B-076C425137DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371D1145-40B1-4691-A25B-076C425137DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43660E50-67F9-4EAF-8EA7-F671C89F2C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43660E50-67F9-4EAF-8EA7-F671C89F2C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43660E50-67F9-4EAF-8EA7-F671C89F2C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43660E50-67F9-4EAF-8EA7-F671C89F2C2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +51,7 @@ Global
 		{07432779-3B97-4556-9908-B3BF74941937} = {C3EAE5E2-4665-44C6-8C80-92A05B408037}
 		{FA73A47B-AE54-4F88-A466-CA2E067A1029} = {C3EAE5E2-4665-44C6-8C80-92A05B408037}
 		{3FF2BDCA-DF41-4EE7-92BD-3CF10FA3DE3D} = {C3EAE5E2-4665-44C6-8C80-92A05B408037}
+		{371D1145-40B1-4691-A25B-076C425137DD} = {C3EAE5E2-4665-44C6-8C80-92A05B408037}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F14F95BB-59CB-42E1-A13C-66D7C2A7BF24}
