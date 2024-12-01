@@ -11,4 +11,4 @@ public interface IBookingRepository
         CancellationToken cancellationToken = default);
 
     void Add(Booking booking);
-}
+}   
